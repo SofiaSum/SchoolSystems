@@ -7,35 +7,35 @@ public class Student {
     private int cellNumber;
     private int ID;
 
-    private String getName() {
+    public String getName() {
         return name;
     }
 
-    private void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    private String getSection() {
+    public String getSection() {
         return section;
     }
 
-    private void setSection(String section) {
+    public void setSection(String section) {
         this.section = section;
     }
 
-    private int getCellNumber() {
+    public int getCellNumber() {
         return cellNumber;
     }
 
-    private void setCellNumber(int cellNumber) {
+    public void setCellNumber(int cellNumber) {
         this.cellNumber = cellNumber;
     }
 
-    private int getID() {
+    public int getID() {
         return ID;
     }
 
-    private void setID(int ID) {
+    public void setID(int ID) {
         this.ID = ID;
     }
 }
