@@ -5,43 +5,43 @@ public class Activities {
     private String section;
     private float duration;
 
-    private String getName() {
+    public String getName() {
         return name;
     }
 
-    private void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    private String getCourseName() {
+    public String getCourseName() {
         return courseName;
     }
 
-    private void setCourseName(String courseName) {
+    public void setCourseName(String courseName) {
         this.courseName = courseName;
     }
 
-    private int getCourseCode() {
+    public int getCourseCode() {
         return courseCode;
     }
 
-    private void setCourseCode(int courseCode) {
+    public void setCourseCode(int courseCode) {
         this.courseCode = courseCode;
     }
 
-    private String getSection() {
+    public String getSection() {
         return section;
     }
 
-    private void setSection(String section) {
+    public void setSection(String section) {
         this.section = section;
     }
 
-    private float getDuration() {
+    public float getDuration() {
         return duration;
     }
 
-    private void setDuration(float duration) {
+    public void setDuration(float duration) {
         this.duration = duration;
     }
 }
