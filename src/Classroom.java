@@ -5,43 +5,43 @@ public class Classroom {
     private String schedule;
     private int studentSize;
 
-    private String getName() {
+    public String getName() {
         return name;
     }
 
-    private void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    private int getClassCode() {
+    public int getClassCode() {
         return classCode;
     }
 
-    private void setClassCode(int classCode) {
+    public void setClassCode(int classCode) {
         this.classCode = classCode;
     }
 
-    private String getLocation() {
+    public String getLocation() {
         return location;
     }
 
-    private void setLocation(String location) {
+    public void setLocation(String location) {
         this.location = location;
     }
 
-    private String getSchedule() {
+    public String getSchedule() {
         return schedule;
     }
 
-    private void setSchedule(String schedule) {
+    public void setSchedule(String schedule) {
         this.schedule = schedule;
     }
 
-    private int getStudentSize() {
+    public int getStudentSize() {
         return studentSize;
     }
 
-    private void setStudentSize(int studentSize) {
+    public void setStudentSize(int studentSize) {
         this.studentSize = studentSize;
     }
 
