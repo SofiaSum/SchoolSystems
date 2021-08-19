@@ -7,35 +7,35 @@ public class Teacher {
     private int phoneNumber;
     private int SchoolID;
 
-    private String getName() {
+    public String getName() {
         return name;
     }
 
-    private void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    private String getSubject() {
+    public String getSubject() {
         return subject;
     }
 
-    private void setSubject(String subject) {
+    public void setSubject(String subject) {
         this.subject = subject;
     }
 
-    private int getPhoneNumber() {
+    public int getPhoneNumber() {
         return phoneNumber;
     }
 
-    private void setPhoneNumber(int phoneNumber) {
+    public void setPhoneNumber(int phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
-    private int getSchoolID() {
+    public int getSchoolID() {
         return SchoolID;
     }
 
-    private void setSchoolID(int schoolID) {
+    public void setSchoolID(int schoolID) {
         SchoolID = schoolID;
     }
 }
