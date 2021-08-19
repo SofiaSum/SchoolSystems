@@ -3,27 +3,27 @@ public class Course {
     private int courseCode;
     private String teacher;
 
-    private String getName() {
+    public String getName() {
         return name;
     }
 
-    private void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    private int getCourseCode() {
+    public int getCourseCode() {
         return courseCode;
     }
 
-    private void setCourseCode(int courseCode) {
+    public void setCourseCode(int courseCode) {
         this.courseCode = courseCode;
     }
 
-    private String getTeacher() {
+    public String getTeacher() {
         return teacher;
     }
 
-    private void setTeacher(String teacher) {
+    public void setTeacher(String teacher) {
         this.teacher = teacher;
     }
 }
