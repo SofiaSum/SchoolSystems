@@ -5,27 +5,27 @@ public class Administration {
     private String username;
     private String password;
 
-    private int getID() {
+    public int getID() {
         return ID;
     }
 
-    private void setID(int ID) {
+    public void setID(int ID) {
         this.ID = ID;
     }
 
-    private String getUsername() {
+    public String getUsername() {
         return username;
     }
 
-    private void setUsername(String username) {
+    public void setUsername(String username) {
         this.username = username;
     }
 
-    private String getPassword() {
+    public String getPassword() {
         return password;
     }
 
-    private void setPassword(String password) {
+    public void setPassword(String password) {
         this.password = password;
     }
 }
